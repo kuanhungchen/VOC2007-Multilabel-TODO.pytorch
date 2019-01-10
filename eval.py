@@ -66,6 +66,7 @@ if __name__ == '__main__':
         args = parser.parse_args()
 
         path_to_checkpoint = args.checkpoint
+        # path_to_checkpoint = './checkpoints/model-201901102021-30000.pth'
         path_to_data_dir = args.data_dir
         path_to_results_dir = args.results_dir
 
